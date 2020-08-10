@@ -1,0 +1,21 @@
+html{
+    background-color: #090911;
+    font-family: 'Staatliches', cursive;
+    color: aliceblue;
+}
+
+input{
+    background-color: aliceblue;
+    font-family: 'Staatliches', cursive;
+}
+
+#menu > div, #menu > p{
+    transition: 0.2s;
+}
+
+#menu > div:hover,#menu > p:hover{
+    font-size: 1.1em;
+    color: #e6f3ff;
+    transition: 0.2s;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.search{
+    width: 200px;
+    font-size: 15px;
+}
+
+.searchBlock{
+    display: grid;
+    justify-content: center;
+}
+
+.hint{
+
+    margin: 0;
+    font-size: 15px;
+}
+
+.resBlock{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5,1fr);
+}
+
+#searchButton{
+    justify-self:center;
+}

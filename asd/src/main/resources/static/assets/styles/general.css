@@ -1,0 +1,62 @@
+input{
+    font-size: 15px;
+    margin: 3px;
+}
+
+button{
+    margin-top: 20px;
+    width: 80px;
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+}
+
+#bottom{
+    font-size: 0.7em;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Staatliches', cursive;
+}
+
+logo{
+    margin-top: 1em;
+}
+
+#infoContainer{
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr 1fr;
+}
+
+.empInfo, .jobInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+}
+
+.infoHeader{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    font-size: 20px;
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+
+.empInfo{
+    grid-column: 2/3;
+        /*border-top: solid silver 1px;*/
+}
+
+.jobInfo{
+
+    grid-column: 3/4;
+}
+
+.empInfo> p, .jobInfo > p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
